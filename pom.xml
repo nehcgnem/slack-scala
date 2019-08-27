@@ -18,10 +18,18 @@
             <version>${scala.version}</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.github.gilbertw1/slack-scala-client -->
         <dependency>
-            <groupId>com.github.slack-scala-client</groupId>
-            <artifactId>slack-scala-client_2.12</artifactId>
-            <version>0.2.6</version>
+            <groupId>com.github.gilbertw1</groupId>
+            <artifactId>slack-scala-client_2.11</artifactId>
+            <version>0.1.0</version>
+        </dependency>
+
+
+         <dependency>
+            <groupId>org.vegas-viz</groupId>
+            <artifactId>vegas_2.11</artifactId>
+            <version>0.3.11</version>
         </dependency>
 
         <dependency>
