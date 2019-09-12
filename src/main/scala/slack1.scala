@@ -14,7 +14,7 @@ object slack1 {
 
   def main(args: Array[String])  {
     println("hell0")
-    val token = ???
+    val token = "xoxp-692855199414-679295005154-757310763600-74fe2d16be33411b7ec0987893782adf"
     val client = SlackApiClient(token)
     implicit val system = ActorSystem("slack")
         client.postChatMessage("general", "hello from home")
